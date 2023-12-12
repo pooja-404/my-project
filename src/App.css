@@ -116,15 +116,6 @@
 }
 
 
-.buddy-card {
-  border-radius: 20px;
-  background: var(--color-blue);
-  padding: 39px 39px 34px 39px;
-  margin-bottom: 10px;
-  height: 465px;
-  transition: 400ms linear;
-
-}
 
 .buddy-card:hover {
   transform: scale(1.05);
@@ -233,6 +224,16 @@
   color: var(--color-white);
   transform: scale(1.1);
   transition: all 500ms linear;
+
+}
+
+.buddy-card {
+  border-radius: 20px;
+  background: var(--color-blue);
+  padding: 39px 39px 34px 39px;
+  margin-bottom: 10px;
+  height: 100%;
+  transition: 400ms linear;
 
 }
 
@@ -590,6 +591,7 @@
     width: 100%;
   }
 
+
 }
 
 @media (min-width:576px) {
@@ -609,6 +611,8 @@
     --fs-xxl: 70px;
 
   }
+
+
 }
 
 @media (min-width:992px) {
@@ -629,6 +633,7 @@
   .w_100 {
     width: unset !important;
   }
+
 
 }
 
