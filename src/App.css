@@ -228,7 +228,7 @@
   transition: all 500ms linear;
 }
 
-.btn-2 {
+.btn-2:hover {
   background-color: var(--color-blue);
   color: var(--color-white);
   transform: scale(1.1);
